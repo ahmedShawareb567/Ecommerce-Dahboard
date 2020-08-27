@@ -1,0 +1,93 @@
+
+@media(max-width:991px) {
+    .topHeader .topDHeader .socialSec ul li{
+        margin: 20px 10px 0px 10px;
+    }
+    .topHeader .topDHeader .socialSec ul li a i{
+        font-size: 14px;
+    }
+    .topHeader .adminMenuSec p{
+        font-size: 12px;
+    }
+    .sectionContent .mapSec .mapContent{
+        margin-top: 20px;
+    }
+    .sectionContent .visulaizationSec{
+        display: none;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .sectionContent .digramSec .statCanvas canvas{
+        max-width :100%;
+    }
+    .sectionContent .visulaizationSec canvas{
+        max-width :100%;
+    }
+    .sectionContent .statisPosts .postContent{
+        display: inline-block;
+        margin-right: 1rem;
+        width: 200px;
+        max-width: 100%;
+    }
+    .sectionContent .visulaizationSec canvas{
+        width: 250px;
+        height: 250px;
+        padding-bottom :1rem;
+    }
+    .sectionContent .statisPosts .postContent h3{
+        font-size: 11px;
+    }
+    .sectionContent .headerSectionTwo .backSec {
+        position: fixed;
+    }
+    .topHeader {
+        position: fixed;
+        top: 0rem;
+    }
+    .sectionContent{
+        margin-top :110px;
+    }
+}
+
+@media(max-width: 767px){
+    .topHeader .adminMenuSec{
+        text-align: center;
+    }
+    .topHeader .topDHeader .socialSec ul{
+        text-align: center;
+    }
+    .topHeader .adminMenuSec p {
+        padding: 0rem 1rem 0rem 2rem;
+    }
+    .sectionContent{
+        margin-top :120px;
+    }
+    .topHeader .topDHeader .socialSec ul li .menuDrop a .messageSec .pPic {
+        text-align: left;
+    }
+    .topHeader .adminMenuSec .userMenu{
+        right: 4rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .sectionContent .digramSec .statCanvas canvas{
+        height: 200px;
+    }
+}
+
+@media(max-width: 410px){
+    .topHeader .topDHeader .socialSec ul li a i{
+        font-size: 12px;
+    }
+    .topHeader .topDHeader .socialSec ul li a span{
+        width: 18px;
+        height: 18px;
+        font-size: .6rem;
+        line-height: 18px;
+        font-weight: bold;
+    }
+    .topHeader .topDHeader .socialSec ul li.notifiSec .menuDrop{
+        right: 0rem !important;
+    }
+}
